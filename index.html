@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>McDonald's Order Bot</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>McDonald's Order Controller</h1>
+
+        <!-- Buttons for adding orders and managing bots -->
+        <div class="controls">
+            <button id="addNormalOrder">New Normal Order</button>
+            <button id="addVipOrder">New VIP Order</button>
+            <button id="addBot">+ Bot</button>
+            <button id="removeBot">- Bot</button>
+        </div>
+
+        <!-- Bot status section -->
+        <div class="bot-section">
+            <h2>Active Bots</h2>
+            <div id="botStatus">
+                <!-- This will show how many bots are active and their current status -->
+            </div>
+        </div>
+
+        <!-- Div for displaying pending and completed orders -->
+        <div class="order-section">
+            <div class="orders-box" id="pendingOrders">
+                <h2>Pending Orders</h2>
+            </div>
+            <div class="orders-box" id="completedOrders">
+                <h2>Completed Orders</h2>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
